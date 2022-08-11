@@ -62,7 +62,7 @@ pipeline {
         stage('Docker Run') {
             steps{
                 script {
-                dockerImage.run("-p 8086:80 --rm --name springbootContainer")
+                dockerImage.run("-p 8086:9010 --rm --name springbootContainer")
                 }
             }
         }
