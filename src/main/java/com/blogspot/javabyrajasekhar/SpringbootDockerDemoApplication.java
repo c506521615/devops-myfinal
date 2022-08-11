@@ -15,6 +15,6 @@ public class SpringbootDockerDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Welcome to Docker";
+		return "Greetings from Spring Boot!";
 	}
 }
